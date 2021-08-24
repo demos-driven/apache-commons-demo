@@ -26,7 +26,7 @@ public class CompareToBuilderDemo {
         System.out.println(builder.toComparison()); // -1
     }
 
-    private static class Boy implements Comparable<Boy> {
+    public static class Boy implements Comparable<Boy> {
         private int number;
         private String name;
         private int age;
